@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  background-image: url("main1.jpg");
+  font-family: 'Shizuru', cursive;
+  color: antiquewhite;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5rem;
+  text-shadow: 3px 0 #DA0463;
+  margin-bottom: 40px;
+
+}
+
+/* footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+} */
+.w {
+  background-image: url("images/one.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.a {
+  background-image: url("images/two.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.s {
+  background-image: url("images/three.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.d {
+  background-image: url("images/four.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.j {
+  background-image: url("images/five.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.k {
+  background-image: url("images/six.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.l {
+  background-image: url("images/seven.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.box {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: black;
+  border-radius: 45px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* This part is to style the code when it is used on a phone */
+@media (max-width: 1020px) {
+
+  body {
+    background-image: url("main2.jpg");
+    background-size: auto;
+  }
+
+  .box {
+    margin: auto;
+    margin-bottom: 10%;
+    display: table;
+    padding: 10%;
+  }
+}

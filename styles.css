@@ -1,0 +1,92 @@
+
+
+body {
+  text-align: center;
+  background-image: url("main.jpg");
+  font-family: 'Shizuru', cursive;
+  color: antiquewhite;
+  background-size: cover;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin:  4%;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid antiquewhite;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-image: url("lost.jpg");
+  opacity: 0.8;
+
+}
+
+.red {
+background-image: url("videos/red.gif");
+background-size: cover;
+}
+
+.green {
+  background-image: url("videos/green.gif");
+  background-size: cover;
+}
+
+.blue {
+  background-image: url("videos/blue.gif");
+  background-size: cover;
+}
+
+.yellow {
+  background-image: url("videos/yellow.gif");
+  background-size: cover;}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: red;
+}
+
+.gem {
+  width: 250px;
+}
+.footer {
+  font-family: 'Akaya Telivigala', cursive;
+
+  font-weight: 600;
+}
+.donate {
+font-family: 'Akaya Telivigala', cursive;
+font-size:2rem;
+color: black;
+font-weight: 400;
+text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+/* This part is designed for mobile users */
+@media (max-width: 1020px) {
+  body {
+    background-image: url("main1.jpg");
+  }
+  #level-title {
+    margin-top: 48%;
+  }
+  .game-over {
+    background-image: url("lost3.jpg");
+    opacity: 0.8;
+  }
+}
