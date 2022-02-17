@@ -7,7 +7,7 @@ Two challenges of the Bootcamp by [AppBrewry] (https://www.udemy.com/course/the-
 ![](/screenshots/mainPageDesktop.jpg)
 ![](/screenshots/secondPageDesktop.jpg)
 ![](/screenshots/mainPageMobile.jpg)
-![](/screenshots/secondPAgeMobile.jpg)
+![](/screenshots/secondPageMobile.jpg)
 
 # Built with
 
